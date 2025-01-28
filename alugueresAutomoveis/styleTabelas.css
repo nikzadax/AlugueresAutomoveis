@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border: none; /* Remover borda */
+}
+
+.navbar a:hover {
+    background-color: gray;
+}
+
+/* Estilos para o formulário */
+.form-container {
+    margin: auto;
+    width: 50%; /* Largura desejada para o formulário */
+    padding: 20px;
+}
+
+.form-container select,
+.form-container input[type=date],
+.form-container input[type=number],
+.form-container input[type=text],
+.form-container input[type=email]{
+    width: calc(90% - 40px); /* 100% - padding * 2 */
+    padding: 8px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+.form-container input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 11px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.form-container input[type=submit]:hover {
+    background-color: gray;
+}
+
+h2{
+    text-align: center;
+    
+}
+
